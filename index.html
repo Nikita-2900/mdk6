@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js" defer></script>
+    <style>
+        .inputs {
+            gap: 20px;
+        }
+        .resiltcont{
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+        <div class="inputs">
+            <div>
+                <input id="firstInput" type="text">
+                <p id="firstInputError"></p>
+            </div>
+            <div>
+                <input id="secondInput" type="text">
+                <p id="secondInputError"></p>
+            </div>
+            <div>
+                <input id="thirdInput" type="text">
+                <p id="thirdInputError"></p>
+            </div>
+            
+        </div>
+        <button id="Button">Расчитать</button>
+        <div class="resiltcont">
+            <p>Результат:</p>
+            <p class="result"></p>
+        </div>
+</body>
+</html>
