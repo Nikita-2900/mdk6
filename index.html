@@ -8,9 +8,13 @@
     <style>
         .inputs {
             gap: 20px;
+            display: flex;
         }
         .resiltcont{
             display: flex;
+        }
+        .error_text {
+            color: red;
         }
     </style>
 </head>
@@ -18,21 +22,21 @@
         <div class="inputs">
             <div>
                 <input id="firstInput" type="text">
-                <p id="firstInputError"></p>
+                <p id="firstInputError" class="error_text"></p>
             </div>
             <div>
                 <input id="secondInput" type="text">
-                <p id="secondInputError"></p>
+                <p id="secondInputError" class="error_text"></p>
             </div>
             <div>
                 <input id="thirdInput" type="text">
-                <p id="thirdInputError"></p>
+                <p id="thirdInputError" class="error_text"></p>
             </div>
             
         </div>
         <button id="Button">Расчитать</button>
         <div class="resiltcont">
-            <p>Результат:</p>
+            <p>Результат: </p>
             <p class="result"></p>
         </div>
 </body>
